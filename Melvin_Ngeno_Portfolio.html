@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Melvin Kipkemoi Ngeno | Senior Geospatial Engineer – GIS Specialist Kenya</title>
+<meta name="description" content="Melvin Ngeno – Senior Geospatial Engineer and GIS Specialist in Nairobi, Kenya. Expert in Land Information Management Systems, ArcGIS, FME, cadastral surveying, and spatial planning across Kenya and East Africa.">
+<meta name="keywords" content="Geospatial Engineer Kenya, GIS Specialist Kenya, Land Information Management Systems, ArcGIS Professional Kenya, FME Certified Professional, Cadastral Surveying Kenya, Spatial Data Management, Geospatial Consulting East Africa">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+--navy:#0F172A;--blue:#2563EB;--blue-light:#3B82F6;--emerald:#10B981;--emerald-light:#34D399;
+--slate-100:#F1F5F9;--slate-200:#E2E8F0;--slate-400:#94A3B8;--slate-600:#475569;--slate-700:#334155;--slate-800:#1E293B;
+--white:#FFFFFF;--font-display:'Space Grotesk',sans-serif;--font-body:'Inter',sans-serif;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);background:var(--navy);color:var(--white);overflow-x:hidden;line-height:1.6}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1rem 2.5rem;display:flex;align-items:center;justify-content:space-between;background:rgba(15,23,42,0.9);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,0.06)}
+.nav-logo{font-family:var(--font-display);font-weight:700;font-size:1.1rem;color:var(--white);letter-spacing:-0.02em;text-decoration:none}
+.nav-logo span{color:var(--emerald)}
+.nav-links{display:flex;gap:2.25rem;list-style:none}
+.nav-links a{color:var(--slate-400);text-decoration:none;font-size:0.85rem;font-weight:500;transition:color 0.2s}
+.nav-links a:hover{color:var(--white)}
+.nav-cta{background:transparent;color:var(--emerald-light);border:1px solid rgba(16,185,129,0.4);padding:0.5rem 1.25rem;border-radius:6px;font-size:0.85rem;font-weight:600;cursor:pointer;text-decoration:none;transition:all 0.2s}
+.nav-cta:hover{background:rgba(16,185,129,0.1);border-color:var(--emerald)}
+/* HERO */
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;padding-top:5rem}
+.hero-content{position:relative;z-index:1;max-width:1100px;padding:0 2.5rem;margin:0 auto;width:100%}
+.hero-badge{display:inline-flex;align-items:center;gap:0.5rem;background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.25);color:var(--emerald-light);padding:0.375rem 0.875rem;border-radius:999px;font-size:0.75rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;margin-bottom:1.5rem}
+.pulse-dot{width:6px;height:6px;background:var(--emerald);border-radius:50%;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.4;transform:scale(1.6)}}
+h1.hero-title{font-family:var(--font-display);font-size:clamp(2.6rem,5.5vw,4.8rem);font-weight:700;line-height:1.04;letter-spacing:-0.03em;margin-bottom:1.25rem;color:var(--white)}
+.accent{color:var(--emerald)}
+.hero-sub{font-size:1.1rem;color:var(--slate-400);max-width:620px;margin-bottom:0.75rem;line-height:1.7}
+.hero-sub2{font-size:0.925rem;color:var(--slate-600);max-width:640px;margin-bottom:2rem;line-height:1.75}
+.hero-ctas{display:flex;gap:1rem;flex-wrap:wrap}
+.btn-primary{background:var(--blue);color:var(--white);padding:0.875rem 1.75rem;border-radius:8px;font-weight:600;font-size:0.875rem;text-decoration:none;transition:all 0.2s;border:none;cursor:pointer;display:inline-flex;align-items:center;gap:0.5rem}
+.btn-primary:hover{background:var(--blue-light);transform:translateY(-2px)}
+.btn-outline{background:transparent;color:var(--white);padding:0.875rem 1.75rem;border-radius:8px;font-weight:600;font-size:0.875rem;text-decoration:none;transition:all 0.2s;border:1px solid rgba(255,255,255,0.18);cursor:pointer;display:inline-flex;align-items:center;gap:0.5rem}
+.btn-outline:hover{border-color:rgba(255,255,255,0.4);background:rgba(255,255,255,0.04)}
+.hero-stats{display:flex;gap:3rem;margin-top:3rem;padding-top:2rem;border-top:1px solid rgba(255,255,255,0.07);flex-wrap:wrap}
+.hero-stat .num{font-family:var(--font-display);font-size:2rem;font-weight:700;color:var(--white)}
+.hero-stat .num span{color:var(--emerald)}
+.hero-stat .lbl{font-size:0.72rem;color:var(--slate-400);margin-top:0.2rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase}
+/* SECTIONS */
+section{padding:5.5rem 2.5rem}
+.container{max-width:1100px;margin:0 auto}
+.section-eyebrow{font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--emerald);margin-bottom:0.6rem}
+.section-title{font-family:var(--font-display);font-size:clamp(1.9rem,4vw,3rem);font-weight:700;letter-spacing:-0.025em;color:var(--white);margin-bottom:1rem;line-height:1.08}
+.section-lead{color:var(--slate-400);max-width:580px;font-size:1rem;line-height:1.75}
+/* ABOUT */
+.about-grid{display:grid;grid-template-columns:340px 1fr;gap:4rem;align-items:start;margin-top:3.5rem}
+.profile-card{background:var(--slate-800);border:1px solid rgba(255,255,255,0.08);border-radius:20px;overflow:hidden}
+.profile-img-wrap{width:100%;aspect-ratio:1/1;overflow:hidden;position:relative}
+.profile-img-wrap img{width:100%;height:100%;object-fit:cover;object-position:center top}
+.profile-info{padding:1.5rem}
+.profile-info h3{font-family:var(--font-display);font-weight:700;font-size:1.15rem;color:var(--white);margin-bottom:0.2rem}
+.profile-info .role{color:var(--emerald-light);font-size:0.85rem;font-weight:600;margin-bottom:0.25rem}
+.profile-info .org{color:var(--slate-400);font-size:0.82rem;margin-bottom:1.1rem}
+.profile-tags{display:flex;flex-wrap:wrap;gap:0.45rem}
+.tag{background:rgba(37,99,235,0.1);border:1px solid rgba(37,99,235,0.2);color:#93C5FD;padding:0.25rem 0.7rem;border-radius:999px;font-size:0.72rem;font-weight:600}
+.about-text p{color:var(--slate-400);line-height:1.8;margin-bottom:1.25rem;font-size:0.95rem}
+.about-highlights{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:2rem}
+.highlight-card{background:var(--slate-800);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:1.25rem}
+.highlight-icon{font-size:1.25rem;margin-bottom:0.65rem;display:block}
+.highlight-card h4{font-weight:600;font-size:0.875rem;color:var(--white);margin-bottom:0.2rem}
+.highlight-card p{font-size:0.78rem;color:var(--slate-400)}
+/* SKILLS */
+.alt-bg{background:var(--slate-800)}
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:1.5rem;margin-top:3rem}
+.skill-category{background:var(--navy);border:1px solid rgba(255,255,255,0.07);border-radius:16px;padding:1.75rem}
+.skill-cat-header{display:flex;align-items:center;gap:0.75rem;margin-bottom:1.25rem}
+.skill-cat-icon{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.15rem}
+.ic-blue{background:rgba(37,99,235,0.15)}
+.ic-emerald{background:rgba(16,185,129,0.15)}
+.ic-amber{background:rgba(245,158,11,0.15)}
+.ic-purple{background:rgba(139,92,246,0.15)}
+.ic-coral{background:rgba(239,68,68,0.15)}
+.ic-teal{background:rgba(20,184,166,0.15)}
+.skill-cat-title{font-weight:700;font-size:0.9rem;color:var(--white)}
+.skill-pills{display:flex;flex-wrap:wrap;gap:0.45rem}
+.skill-pill{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);color:var(--slate-400);padding:0.3rem 0.7rem;border-radius:6px;font-size:0.78rem;font-weight:500;transition:all 0.2s;cursor:default}
+.skill-pill:hover{background:rgba(37,99,235,0.12);border-color:rgba(37,99,235,0.35);color:#93C5FD}
+/* PROJECTS */
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.5rem;margin-top:3rem}
+.project-card{background:var(--slate-800);border:1px solid rgba(255,255,255,0.07);border-radius:16px;overflow:hidden;transition:transform 0.22s,border-color 0.22s}
+.project-card:hover{transform:translateY(-5px);border-color:rgba(37,99,235,0.4)}
+.pc-img{height:155px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.pc-img.lims{background:linear-gradient(135deg,#0B1F45 0%,#162D5A 100%)}
+.pc-img.planning{background:linear-gradient(135deg,#081F18 0%,#0D3025 100%)}
+.pc-img.infra{background:linear-gradient(135deg,#1F1400 0%,#312200 100%)}
+.pc-body{padding:1.5rem}
+.pc-body h3{font-family:var(--font-display);font-weight:700;font-size:0.975rem;color:var(--white);margin-bottom:0.5rem;line-height:1.35}
+.pc-body p{font-size:0.825rem;color:var(--slate-400);line-height:1.65;margin-bottom:1rem}
+.project-tech{display:flex;flex-wrap:wrap;gap:0.4rem;margin-bottom:1rem}
+.tech-tag{background:rgba(37,99,235,0.1);border:1px solid rgba(37,99,235,0.2);color:#93C5FD;padding:0.2rem 0.6rem;border-radius:4px;font-size:0.7rem;font-weight:700;letter-spacing:0.03em}
+.project-impact{background:rgba(16,185,129,0.07);border:1px solid rgba(16,185,129,0.15);border-radius:8px;padding:0.7rem;font-size:0.78rem;color:var(--emerald-light);font-weight:500}
+/* MAP */
+.map-container{margin-top:3rem;background:var(--navy);border:1px solid rgba(255,255,255,0.07);border-radius:20px;overflow:hidden}
+.map-header{padding:1.25rem 1.75rem;border-bottom:1px solid rgba(255,255,255,0.07);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.75rem}
+.map-title-text{font-weight:600;font-size:0.875rem;color:var(--slate-400)}
+.map-filters{display:flex;gap:0.5rem;flex-wrap:wrap}
+.filter-btn{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);color:var(--slate-400);padding:0.35rem 0.9rem;border-radius:999px;font-size:0.78rem;font-weight:600;cursor:pointer;transition:all 0.2s}
+.filter-btn.active,.filter-btn:hover{background:var(--blue);border-color:var(--blue);color:var(--white)}
+.map-canvas{height:420px;overflow:hidden}
+.map-footer{padding:1rem 1.75rem;border-top:1px solid rgba(255,255,255,0.07);display:flex;gap:1.5rem;flex-wrap:wrap;align-items:center}
+.legend-item{display:flex;align-items:center;gap:0.5rem;font-size:0.78rem;color:var(--slate-400)}
+.legend-dot{width:9px;height:9px;border-radius:50%}
+/* EXPERIENCE TIMELINE */
+.timeline{margin-top:3.5rem;position:relative;padding-left:2.25rem}
+.timeline::before{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--blue) 0%,var(--emerald) 60%,rgba(255,255,255,0.04) 100%)}
+.tl-item{position:relative;padding-bottom:3rem}
+.tl-dot{position:absolute;left:-2.6rem;top:0.2rem;width:16px;height:16px;border-radius:50%;border:2px solid var(--blue);background:var(--navy)}
+.tl-dot.current{background:var(--blue);box-shadow:0 0 0 5px rgba(37,99,235,0.18)}
+.tl-period{font-size:0.72rem;font-weight:700;letter-spacing:0.08em;color:var(--emerald);text-transform:uppercase;margin-bottom:0.5rem}
+.tl-card{background:var(--navy);border:1px solid rgba(255,255,255,0.07);border-radius:14px;padding:1.5rem}
+.tl-card h3{font-family:var(--font-display);font-weight:700;font-size:1.05rem;color:var(--white);margin-bottom:0.2rem}
+.tl-card .company{color:var(--blue-light);font-size:0.875rem;font-weight:600;margin-bottom:1rem}
+.tl-card ul{list-style:none;display:flex;flex-direction:column;gap:0.5rem}
+.tl-card li{font-size:0.85rem;color:var(--slate-400);padding-left:1.2rem;position:relative;line-height:1.55}
+.tl-card li::before{content:'▸';position:absolute;left:0;color:var(--emerald);font-size:0.65rem;top:0.18rem}
+/* CERTS */
+.certs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1.25rem;margin-top:3rem}
+.cert-card{background:var(--slate-800);border:1px solid rgba(255,255,255,0.07);border-radius:16px;padding:1.5rem;transition:border-color 0.2s,transform 0.2s}
+.cert-card:hover{border-color:rgba(16,185,129,0.35);transform:translateY(-2px)}
+.cert-logo{width:50px;height:50px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:0.85rem;margin-bottom:1rem;letter-spacing:-0.02em}
+.cl-esri{background:rgba(37,99,235,0.18);color:#93C5FD}
+.cl-fme{background:rgba(245,158,11,0.15);color:#FCD34D}
+.cl-rcmrd{background:rgba(16,185,129,0.15);color:var(--emerald-light)}
+.cert-card h4{font-weight:700;font-size:0.875rem;color:var(--white);margin-bottom:0.2rem;line-height:1.35}
+.cert-card p{font-size:0.78rem;color:var(--slate-400);line-height:1.5}
+.cert-badge{display:inline-block;background:rgba(16,185,129,0.1);color:var(--emerald-light);border:1px solid rgba(16,185,129,0.2);padding:0.2rem 0.6rem;border-radius:4px;font-size:0.68rem;font-weight:700;margin-top:0.75rem;letter-spacing:0.06em;text-transform:uppercase}
+/* TECH */
+.tech-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:1rem;margin-top:3rem}
+.tech-card{background:var(--navy);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:1.25rem 0.75rem;text-align:center;transition:all 0.2s;cursor:default}
+.tech-card:hover{border-color:rgba(37,99,235,0.45);transform:translateY(-2px)}
+.tech-icon{font-size:2rem;margin-bottom:0.65rem;display:block}
+.tech-card span{font-size:0.75rem;font-weight:600;color:var(--slate-400)}
+/* TESTIMONIALS */
+.test-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;margin-top:3rem}
+.test-card{background:var(--navy);border:1px solid rgba(255,255,255,0.07);border-radius:16px;padding:1.75rem;position:relative}
+.test-card::before{content:'"';position:absolute;top:0.75rem;right:1.25rem;font-size:5rem;color:rgba(37,99,235,0.1);font-family:Georgia,serif;line-height:1;pointer-events:none}
+.test-text{font-size:0.875rem;color:var(--slate-400);line-height:1.75;margin-bottom:1.5rem;font-style:italic}
+.test-author{display:flex;align-items:center;gap:0.75rem}
+.author-av{width:38px;height:38px;border-radius:50%;background:rgba(37,99,235,0.2);display:flex;align-items:center;justify-content:center;font-size:0.8rem;font-weight:700;color:#93C5FD;flex-shrink:0}
+.author-name{font-weight:600;font-size:0.85rem;color:var(--white)}
+.author-role{font-size:0.75rem;color:var(--slate-400)}
+/* BLOG */
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:3rem}
+.blog-card{background:var(--slate-800);border:1px solid rgba(255,255,255,0.07);border-radius:16px;overflow:hidden;transition:border-color 0.2s}
+.blog-card:hover{border-color:rgba(37,99,235,0.35)}
+.blog-img{height:130px;display:flex;align-items:center;justify-content:center;font-size:2.25rem;background:linear-gradient(135deg,#0B1835,#0D2248)}
+.blog-body{padding:1.25rem}
+.blog-cat{font-size:0.7rem;font-weight:700;color:var(--emerald);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.4rem}
+.blog-card h4{font-weight:700;font-size:0.9rem;color:var(--white);line-height:1.4;margin-bottom:0.4rem}
+.blog-card p{font-size:0.8rem;color:var(--slate-400);line-height:1.55}
+.blog-meta{display:flex;align-items:center;justify-content:space-between;margin-top:1rem;font-size:0.75rem;color:var(--slate-600)}
+/* CONTACT */
+.contact-grid{display:grid;grid-template-columns:1fr 1.5fr;gap:4rem;margin-top:3.5rem;align-items:start}
+.contact-info h3{font-family:var(--font-display);font-size:1.3rem;font-weight:700;color:var(--white);margin-bottom:0.875rem;line-height:1.3}
+.contact-info p{color:var(--slate-400);font-size:0.9rem;line-height:1.75;margin-bottom:2rem}
+.contact-links{display:flex;flex-direction:column;gap:0.7rem}
+.contact-link{display:flex;align-items:center;gap:0.75rem;color:var(--slate-400);text-decoration:none;font-size:0.875rem;transition:color 0.2s}
+.contact-link:hover{color:var(--white)}
+.cl-icon{width:38px;height:38px;background:var(--navy);border:1px solid rgba(255,255,255,0.08);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:0.95rem;flex-shrink:0}
+.cform{background:var(--navy);border:1px solid rgba(255,255,255,0.07);border-radius:16px;padding:2rem}
+.fg{margin-bottom:1.25rem}
+.fg label{display:block;font-size:0.72rem;font-weight:700;color:var(--slate-400);margin-bottom:0.45rem;letter-spacing:0.06em;text-transform:uppercase}
+.fg input,.fg textarea,.fg select{width:100%;background:var(--slate-800);border:1px solid rgba(255,255,255,0.09);border-radius:8px;color:var(--white);padding:0.75rem 1rem;font-size:0.875rem;font-family:var(--font-body);transition:border-color 0.2s;outline:none;-webkit-appearance:none}
+.fg input:focus,.fg textarea:focus,.fg select:focus{border-color:var(--blue)}
+.fg select option{background:var(--slate-800)}
+.fg textarea{height:115px;resize:vertical}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+footer{background:var(--navy);border-top:1px solid rgba(255,255,255,0.06);padding:2.5rem;text-align:center}
+footer p{color:var(--slate-600);font-size:0.82rem;line-height:1.7}
+footer span{color:var(--emerald)}
+footer a{color:var(--slate-400);text-decoration:none}
+footer a:hover{color:var(--white)}
+/* ANIM */
+@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+.fade-up{animation:fadeUp 0.65s ease forwards}
+.d1{animation-delay:.08s;opacity:0}.d2{animation-delay:.18s;opacity:0}.d3{animation-delay:.3s;opacity:0}.d4{animation-delay:.44s;opacity:0}.d5{animation-delay:.58s;opacity:0}
+@media(max-width:900px){
+.about-grid{grid-template-columns:1fr}
+.contact-grid{grid-template-columns:1fr}
+.fr{grid-template-columns:1fr}
+.nav-links{display:none}
+.hero-stats{gap:1.5rem}
+.timeline{padding-left:1.5rem}
+.tl-dot{left:-2rem}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#home" class="nav-logo">Melvin<span>.</span>Ngeno</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Contact Me</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div style="position:absolute;inset:0;z-index:0;overflow:hidden">
+    <svg width="100%" height="100%" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="heroGrid" width="55" height="55" patternUnits="userSpaceOnUse">
+          <path d="M 55 0 L 0 0 0 55" fill="none" stroke="rgba(37,99,235,0.065)" stroke-width="1"/>
+        </pattern>
+        <radialGradient id="hg1" cx="65%" cy="38%"><stop offset="0%" stop-color="rgba(37,99,235,0.18)"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+        <radialGradient id="hg2" cx="20%" cy="70%"><stop offset="0%" stop-color="rgba(16,185,129,0.07)"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#heroGrid)"/>
+      <ellipse cx="950" cy="350" rx="520" ry="400" fill="url(#hg1)"/>
+      <ellipse cx="280" cy="640" rx="360" ry="280" fill="url(#hg2)"/>
+      <g opacity="0.055" stroke="#2563EB" stroke-width="1" fill="none">
+        <ellipse cx="1060" cy="430" rx="220" ry="130"/>
+        <ellipse cx="1060" cy="430" rx="300" ry="200"/>
+        <ellipse cx="1060" cy="430" rx="380" ry="270"/>
+        <ellipse cx="1060" cy="430" rx="460" ry="340"/>
+        <ellipse cx="1060" cy="430" rx="540" ry="410"/>
+      </g>
+      <g fill="rgba(16,185,129,0.45)">
+        <circle cx="820" cy="190" r="3"/><circle cx="1120" cy="360" r="3.5"/><circle cx="970" cy="520" r="2.5"/>
+        <circle cx="710" cy="415" r="2"/><circle cx="1240" cy="255" r="2.5"/>
+      </g>
+      <g stroke="rgba(16,185,129,0.13)" stroke-width="1" fill="none">
+        <line x1="820" y1="190" x2="1120" y2="360"/>
+        <line x1="1120" y1="360" x2="970" y2="520"/>
+        <line x1="970" y1="520" x2="710" y2="415"/>
+        <line x1="820" y1="190" x2="710" y2="415"/>
+        <line x1="1120" y1="360" x2="1240" y2="255"/>
+      </g>
+      <circle cx="820" cy="190" r="8" fill="none" stroke="rgba(16,185,129,0.4)" stroke-width="1.5"/>
+      <circle cx="1120" cy="360" r="8" fill="none" stroke="rgba(37,99,235,0.5)" stroke-width="1.5"/>
+    </svg>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge fade-up"><div class="pulse-dot"></div>Nairobi, Kenya · Open to Opportunities</div>
+    <h1 class="hero-title fade-up d1">Transforming Spatial Data<br>into <span class="accent">Actionable Insights</span></h1>
+    <p class="hero-sub fade-up d2">Senior Geospatial Engineer &amp; GIS Specialist</p>
+    <p class="hero-sub2 fade-up d2">6+ years delivering GIS, cadastral surveying, Land Information Management Systems, and spatial planning for county governments, national agencies, and infrastructure projects across Kenya.</p>
+    <div class="hero-ctas fade-up d3">
+      <a href="Melvin_Ngeno_CV.docx" download class="btn-primary">⬇ Download CV</a>
+      <a href="#contact" class="btn-outline">Contact Me →</a>
+    </div>
+    <div class="hero-stats fade-up d4">
+      <div class="hero-stat"><div class="num">6<span>+</span></div><div class="lbl">Years Experience</div></div>
+      <div class="hero-stat"><div class="num">10<span>+</span></div><div class="lbl">Major Projects</div></div>
+      <div class="hero-stat"><div class="num">3</div><div class="lbl">County LIMS Delivered</div></div>
+      <div class="hero-stat"><div class="num">FME</div><div class="lbl">Certified Professional</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-eyebrow">About</div>
+    <h2 class="section-title">Geospatial Engineer &amp; GIS Specialist</h2>
+    <div class="about-grid">
+      <div>
+        <div class="profile-card">
+          <div class="profile-img-wrap">
+            <img src="data:image/jpeg;base64,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" alt="Melvin Kipkemoi Ngeno – Senior Geospatial Engineer">
+          </div>
+          <div class="profile-info">
+            <h3>Melvin Kipkemoi Ngeno</h3>
+            <div class="role">Senior GIS Specialist</div>
+            <div class="org">Digireg Kenya Limited · Nairobi, Kenya</div>
+            <div class="profile-tags">
+              <span class="tag">GIS Specialist</span>
+              <span class="tag">FME Certified</span>
+              <span class="tag">ISK Graduate Member</span>
+              <span class="tag">ArcGIS Pro</span>
+              <span class="tag">QGIS</span>
+              <span class="tag">Cadastral Surveys</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-text">
+        <p>I am a results-driven Geospatial Engineer with a Bachelor of Engineering in Geospatial Engineering (Second Class Honours) from the Technical University of Kenya, and over six years of progressive experience in GIS, surveying, land administration, and spatial data infrastructure.</p>
+        <p>Currently serving as a Senior GIS Specialist at Digireg Kenya Limited, I lead the design and implementation of county-scale Land Information Management Systems, oversee GIS data quality control, develop FME-driven ETL pipelines for large-scale data migration, and coordinate with national and county government stakeholders on land administration and spatial planning projects.</p>
+        <p>My work spans the full geospatial value chain — from GNSS/RTK field surveys and cadastral data capture to enterprise GIS database design, system training, and stakeholder engagement. Projects have covered Nakuru, Lamu, Kitui, Siaya, and Kilifi counties.</p>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <span class="highlight-icon">🏛️</span>
+            <h4>Graduate Member, ISK</h4>
+            <p>Institution of Surveyors of Kenya</p>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-icon">⚙️</span>
+            <h4>FME Certified Professional</h4>
+            <p>Safe Software · Sep 2023 – 2026</p>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-icon">🎓</span>
+            <h4>BEng Geospatial Engineering</h4>
+            <p>Technical University of Kenya · 2019</p>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-icon">🌍</span>
+            <h4>Multi-County Deployments</h4>
+            <p>Nakuru, Lamu, Kitui, Siaya, Kilifi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="alt-bg">
+  <div class="container">
+    <div class="section-eyebrow">Expertise</div>
+    <h2 class="section-title">Skills &amp; Technical Stack</h2>
+    <p class="section-lead">A comprehensive toolkit spanning the full geospatial workflow — from field data capture to enterprise GIS solution delivery.</p>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <div class="skill-cat-header"><div class="skill-cat-icon ic-blue">🗺️</div><div class="skill-cat-title">GIS &amp; Spatial Analysis</div></div>
+        <div class="skill-pills">
+          <span class="skill-pill">ArcGIS Pro</span><span class="skill-pill">ArcGIS Online</span><span class="skill-pill">ArcGIS Desktop</span><span class="skill-pill">QGIS</span><span class="skill-pill">Web GIS</span><span class="skill-pill">Spatial Analysis</span><span class="skill-pill">Geodatabases</span><span class="skill-pill">Cartographic Mapping</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-cat-header"><div class="skill-cat-icon ic-emerald">📐</div><div class="skill-cat-title">Surveying &amp; Mapping</div></div>
+        <div class="skill-pills">
+          <span class="skill-pill">GNSS / RTK</span><span class="skill-pill">Total Station</span><span class="skill-pill">Automatic Level</span><span class="skill-pill">Cadastral Surveys</span><span class="skill-pill">Engineering Surveys</span><span class="skill-pill">Topographic Surveys</span><span class="skill-pill">As-Built Surveys</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-cat-header"><div class="skill-cat-icon ic-amber">⚡</div><div class="skill-cat-title">Data Integration &amp; ETL</div></div>
+        <div class="skill-pills">
+          <span class="skill-pill">FME Platform</span><span class="skill-pill">ETL Workflows</span><span class="skill-pill">Data Migration</span><span class="skill-pill">Spatial Databases</span><span class="skill-pill">QA / QC</span><span class="skill-pill">Metadata Standards</span><span class="skill-pill">GIS Data Governance</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-cat-header"><div class="skill-cat-icon ic-purple">✏️</div><div class="skill-cat-title">CAD &amp; Technical Design</div></div>
+        <div class="skill-pills">
+          <span class="skill-pill">AutoCAD</span><span class="skill-pill">ZWCAD</span><span class="skill-pill">Engineering Drawings</span><span class="skill-pill">Survey Plotting</span><span class="skill-pill">Setting-Out</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-cat-header"><div class="skill-cat-icon ic-teal">🏛️</div><div class="skill-cat-title">Land Administration</div></div>
+        <div class="skill-pills">
+          <span class="skill-pill">LIMS Design</span><span class="skill-pill">Land Records</span><span class="skill-pill">Valuation Systems</span><span class="skill-pill">Physical Planning</span><span class="skill-pill">Regularization</span><span class="skill-pill">Stakeholder Training</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-cat-header"><div class="skill-cat-icon ic-coral">🚀</div><div class="skill-cat-title">Emerging &amp; Data Science</div></div>
+        <div class="skill-pills">
+          <span class="skill-pill">AI for GIS</span><span class="skill-pill">Spatial Data Science</span><span class="skill-pill">Geospatial Automation</span><span class="skill-pill">Remote Sensing</span><span class="skill-pill">Digital Land Admin</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-eyebrow">Portfolio</div>
+    <h2 class="section-title">Featured Projects</h2>
+    <p class="section-lead">County-scale land administration systems, cadastral surveys, infrastructure surveys, and spatial planning engagements across Kenya.</p>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="pc-img lims">
+          <svg width="190" height="110" viewBox="0 0 190 110" fill="none" opacity="0.35" xmlns="http://www.w3.org/2000/svg">
+            <rect x="12" y="12" width="75" height="55" rx="2" stroke="#93C5FD" stroke-width="1.2"/>
+            <rect x="22" y="72" width="55" height="26" rx="2" stroke="#93C5FD" stroke-width="1"/>
+            <rect x="92" y="12" width="86" height="42" rx="2" stroke="#93C5FD" stroke-width="1.2"/>
+            <rect x="97" y="58" width="40" height="36" rx="2" stroke="#93C5FD" stroke-width="1"/>
+            <rect x="142" y="58" width="36" height="36" rx="2" stroke="#93C5FD" stroke-width="1"/>
+            <circle cx="48" cy="38" r="5" fill="#2563EB"/><circle cx="135" cy="32" r="5" fill="#2563EB"/>
+          </svg>
+        </div>
+        <div class="pc-body">
+          <h3>Land Information Management System – Nakuru County</h3>
+          <p>Needs assessment, base parcel data creation, system design, development, testing, integration, user training, pilot deployment, and handover of county-wide LIMS covering land records, valuation rolls, zoning, and revenue streams.</p>
+          <div class="project-tech"><span class="tech-tag">ArcGIS</span><span class="tech-tag">FME</span><span class="tech-tag">Database Design</span><span class="tech-tag">Land Admin</span></div>
+          <div class="project-impact">🏛️ Dec 2024 – Dec 2025 · Full LIMS lifecycle delivered</div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="pc-img lims">
+          <svg width="190" height="110" viewBox="0 0 190 110" fill="none" opacity="0.35" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 25 55 Q 60 22 95 50 T 160 42" stroke="#60A5FA" stroke-width="1.5"/>
+            <path d="M 18 75 Q 50 48 82 68 T 145 62" stroke="#60A5FA" stroke-width="1"/>
+            <rect x="58" y="28" width="72" height="48" rx="3" stroke="#93C5FD" stroke-width="1.2" fill="rgba(37,99,235,0.07)"/>
+            <circle cx="94" cy="54" r="6" fill="#10B981"/>
+          </svg>
+        </div>
+        <div class="pc-body">
+          <h3>Land Information Management System – Lamu County</h3>
+          <p>Technical proposal on land transaction management, design of geospatial data standards, cadastral and registration integration into web application, LIMS deployment, user manuals, and train-the-trainer sessions for county GIS/ICT team.</p>
+          <div class="project-tech"><span class="tech-tag">GIS</span><span class="tech-tag">FME</span><span class="tech-tag">Data Standards</span><span class="tech-tag">Training</span></div>
+          <div class="project-impact">📋 Dec 2023 – Aug 2024 · Full deployment with county handover</div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="pc-img lims">
+          <svg width="190" height="110" viewBox="0 0 190 110" fill="none" opacity="0.35" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="42,22 82,16 112,32 102,68 62,72 32,56" stroke="#93C5FD" stroke-width="1.2" fill="none"/>
+            <polygon points="52,32 76,28 97,40 89,60 64,64 44,52" stroke="#93C5FD" stroke-width="0.8" fill="none"/>
+            <circle cx="68" cy="47" r="5.5" fill="#2563EB"/>
+          </svg>
+        </div>
+        <div class="pc-body">
+          <h3>Land Information Management System – Kitui County</h3>
+          <p>Review of existing land records, design of integrated land administration framework, geospatial and cadastral database development, LIMS configuration, integration with county revenue systems, and comprehensive staff training.</p>
+          <div class="project-tech"><span class="tech-tag">GIS</span><span class="tech-tag">FME</span><span class="tech-tag">Revenue Integration</span><span class="tech-tag">Capacity Building</span></div>
+          <div class="project-impact">📚 July 2025 – Ongoing · Kitui County operational LIMS</div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="pc-img planning">
+          <svg width="190" height="110" viewBox="0 0 190 110" fill="none" opacity="0.4" xmlns="http://www.w3.org/2000/svg">
+            <rect x="22" y="22" width="146" height="66" rx="4" stroke="#6EE7B7" stroke-width="1.2"/>
+            <line x1="22" y1="55" x2="168" y2="55" stroke="#6EE7B7" stroke-width="0.6" stroke-dasharray="5,5"/>
+            <line x1="95" y1="22" x2="95" y2="88" stroke="#6EE7B7" stroke-width="0.6" stroke-dasharray="5,5"/>
+            <circle cx="95" cy="55" r="10" fill="rgba(16,185,129,0.18)" stroke="#10B981" stroke-width="1.5"/>
+            <text x="95" y="59" text-anchor="middle" font-size="9" fill="#10B981" font-family="monospace">8ha</text>
+          </svg>
+        </div>
+        <div class="pc-body">
+          <h3>Planning &amp; Regularization – Lake Amu Trading Centre, Lamu</h3>
+          <p>Survey of approximately 8 hectares for regularization. Control point establishment, beaconing of all plots, GIS mapping, survey data preparation, authenticated survey plan submission, and liaison with Ministry of Lands and Lamu County.</p>
+          <div class="project-tech"><span class="tech-tag">Cadastral Survey</span><span class="tech-tag">QGIS</span><span class="tech-tag">Planning</span><span class="tech-tag">GNSS</span></div>
+          <div class="project-impact">📏 May – Dec 2023 · ~8 hectares planned and regularized</div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="pc-img planning">
+          <svg width="190" height="110" viewBox="0 0 190 110" fill="none" opacity="0.4" xmlns="http://www.w3.org/2000/svg">
+            <rect x="16" y="16" width="158" height="78" rx="4" stroke="#6EE7B7" stroke-width="1.2"/>
+            <rect x="30" y="32" width="35" height="22" rx="1.5" stroke="#34D399" stroke-width="1"/>
+            <rect x="78" y="26" width="58" height="32" rx="1.5" stroke="#34D399" stroke-width="1"/>
+            <rect x="30" y="64" width="85" height="16" rx="1.5" stroke="#34D399" stroke-width="0.7" fill="rgba(16,185,129,0.06)"/>
+            <circle cx="152" cy="48" r="11" stroke="#10B981" stroke-width="1.5" fill="rgba(16,185,129,0.1)"/>
+          </svg>
+        </div>
+        <div class="pc-body">
+          <h3>Ugunja Municipality Development Plan – Siaya County</h3>
+          <p>Preparation of GIS-based base maps, survey of planning boundaries, spatial data analysis, physical surveys, data validation for land use zoning, and support for public participation, situational analysis, and planning deliverables.</p>
+          <div class="project-tech"><span class="tech-tag">GIS Mapping</span><span class="tech-tag">Boundary Survey</span><span class="tech-tag">Zoning Analysis</span><span class="tech-tag">Public Participation</span></div>
+          <div class="project-impact">🏙️ Feb 2025 – Ongoing · Siaya County municipality plan</div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="pc-img infra">
+          <svg width="190" height="110" viewBox="0 0 190 110" fill="none" opacity="0.5" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 22 88 Q 65 42 105 65 T 175 32" stroke="#FCD34D" stroke-width="2"/>
+            <circle cx="22" cy="88" r="5.5" fill="#F59E0B"/>
+            <circle cx="105" cy="65" r="5.5" fill="#F59E0B"/>
+            <circle cx="175" cy="32" r="5.5" fill="#F59E0B"/>
+            <line x1="22" y1="88" x2="22" y2="102" stroke="#F59E0B" stroke-width="1" stroke-dasharray="2,2"/>
+            <line x1="105" y1="65" x2="105" y2="79" stroke="#F59E0B" stroke-width="1" stroke-dasharray="2,2"/>
+            <text x="22" y="103" font-size="7.5" fill="#FCD34D" text-anchor="middle" font-family="monospace">BM1</text>
+            <text x="105" y="88" font-size="7.5" fill="#FCD34D" text-anchor="middle" font-family="monospace">BM2</text>
+          </svg>
+        </div>
+        <div class="pc-body">
+          <h3>Ruiru–Juja / Greater Githurai Water Supply – Phase 1</h3>
+          <p>All surveying and setting-out for water supply infrastructure: pumping station, treatment plant, pipelines, chambers, and civil structures. Control network establishment, precise alignment, as-built surveys, and technical documentation for project handover.</p>
+          <div class="project-tech"><span class="tech-tag">Engineering Survey</span><span class="tech-tag">GNSS</span><span class="tech-tag">As-Built</span><span class="tech-tag">AutoCAD</span></div>
+          <div class="project-impact">💧 Nairobi Satellite Towns Water &amp; Sanitation Programme</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- MAP -->
+<section class="alt-bg" id="map">
+  <div class="container">
+    <div class="section-eyebrow">Coverage</div>
+    <h2 class="section-title">Project Footprint Across Kenya</h2>
+    <p class="section-lead">Engagements spanning six counties — from coast to highlands to Rift Valley.</p>
+    <div class="map-container">
+      <div class="map-header">
+        <div class="map-title-text">Interactive Project Map · Kenya</div>
+        <div class="map-filters" id="mapFilters">
+          <button class="filter-btn active" onclick="filterMap('all',this)">All Projects</button>
+          <button class="filter-btn" onclick="filterMap('lims',this)">Land Admin</button>
+          <button class="filter-btn" onclick="filterMap('planning',this)">Planning</button>
+          <button class="filter-btn" onclick="filterMap('infra',this)">Infrastructure</button>
+        </div>
+      </div>
+      <div class="map-canvas">
+        <svg id="kMap" width="100%" height="420" viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="mg" width="40" height="40" patternUnits="userSpaceOnUse">
+              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(37,99,235,0.055)" stroke-width="1"/>
+            </pattern>
+          </defs>
+          <rect width="720" height="420" fill="#0F172A"/>
+          <rect width="720" height="420" fill="url(#mg)"/>
+          <!-- Kenya outline simplified -->
+          <path d="M 225,42 L 285,32 L 345,42 L 398,62 L 428,94 L 438,134 L 448,184 L 468,215 L 458,256 L 436,296 L 405,336 L 364,375 L 324,393 L 283,382 L 252,362 L 222,332 L 202,292 L 192,252 L 197,212 L 202,172 L 212,132 L 218,92 Z"
+            fill="rgba(37,99,235,0.055)" stroke="rgba(37,99,235,0.28)" stroke-width="1.5"/>
+          <line x1="0" y1="212" x2="720" y2="212" stroke="rgba(255,255,255,0.035)" stroke-width="1" stroke-dasharray="8,8"/>
+          <line x1="312" y1="0" x2="312" y2="420" stroke="rgba(255,255,255,0.035)" stroke-width="1" stroke-dasharray="8,8"/>
+          <text x="12" y="207" font-size="8.5" fill="rgba(255,255,255,0.18)" font-family="monospace">0°</text>
+          <text x="307" y="415" font-size="8.5" fill="rgba(255,255,255,0.18)" font-family="monospace">37°E</text>
+
+          <!-- Nakuru LIMS -->
+          <g class="map-marker lims" data-project="LIMS – Nakuru County" data-type="lims" style="cursor:pointer">
+            <circle cx="262" cy="200" r="14" fill="rgba(37,99,235,0.15)" stroke="none"/>
+            <circle cx="262" cy="200" r="14" fill="none" stroke="rgba(37,99,235,0.4)" stroke-width="1.2">
+              <animate attributeName="r" values="14;24;14" dur="3.2s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.4;0;0.4" dur="3.2s" repeatCount="indefinite"/>
+            </circle>
+            <circle cx="262" cy="200" r="6" fill="#2563EB"/>
+            <text x="262" y="183" text-anchor="middle" font-size="11" fill="white" font-family="Inter,sans-serif" font-weight="600">Nakuru</text>
+          </g>
+
+          <!-- Lamu LIMS + Planning -->
+          <g class="map-marker lims" data-project="LIMS &amp; Planning – Lamu County" data-type="lims" style="cursor:pointer">
+            <circle cx="438" cy="196" r="12" fill="rgba(37,99,235,0.15)" stroke="rgba(37,99,235,0.4)" stroke-width="1.2"/>
+            <circle cx="438" cy="196" r="5.5" fill="#2563EB"/>
+            <text x="438" y="180" text-anchor="middle" font-size="11" fill="white" font-family="Inter,sans-serif" font-weight="600">Lamu</text>
+          </g>
+
+          <!-- Kitui LIMS -->
+          <g class="map-marker lims" data-project="LIMS – Kitui County" data-type="lims" style="cursor:pointer">
+            <circle cx="358" cy="248" r="12" fill="rgba(37,99,235,0.15)" stroke="rgba(37,99,235,0.4)" stroke-width="1.2"/>
+            <circle cx="358" cy="248" r="5.5" fill="#2563EB"/>
+            <text x="358" y="232" text-anchor="middle" font-size="11" fill="white" font-family="Inter,sans-serif" font-weight="600">Kitui</text>
+          </g>
+
+          <!-- Siaya – Ugunja Planning -->
+          <g class="map-marker planning" data-project="Ugunja Municipality Plan – Siaya" data-type="planning" style="cursor:pointer">
+            <circle cx="196" cy="218" r="11" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.5)" stroke-width="1.2"/>
+            <circle cx="196" cy="218" r="5" fill="#10B981"/>
+            <text x="175" y="213" font-size="10.5" fill="#6EE7B7" font-family="Inter,sans-serif" font-weight="600" text-anchor="end">Siaya</text>
+          </g>
+
+          <!-- Kilifi -->
+          <g class="map-marker planning" data-project="Mabirikani Planning – Kilifi County" data-type="planning" style="cursor:pointer">
+            <circle cx="406" cy="278" r="10" fill="rgba(16,185,129,0.15)" stroke="rgba(16,185,129,0.4)" stroke-width="1.2"/>
+            <circle cx="406" cy="278" r="4.5" fill="#10B981"/>
+            <text x="418" y="282" font-size="10" fill="#6EE7B7" font-family="Inter,sans-serif" font-weight="600">Kilifi</text>
+          </g>
+
+          <!-- Githurai / Nairobi – Infrastructure -->
+          <g class="map-marker infra" data-project="Githurai Water Supply – Nairobi" data-type="infra" style="cursor:pointer">
+            <circle cx="296" cy="188" r="11" fill="rgba(245,158,11,0.18)" stroke="rgba(245,158,11,0.5)" stroke-width="1.2"/>
+            <circle cx="296" cy="188" r="5" fill="#F59E0B"/>
+            <text x="296" y="172" text-anchor="middle" font-size="10" fill="#FCD34D" font-family="Inter,sans-serif" font-weight="600">Githurai</text>
+          </g>
+
+          <!-- Nakuru Schemes (Lare, Rongai) -->
+          <g class="map-marker planning" data-project="Lare / Rongai Schemes – Nakuru" data-type="planning" style="cursor:pointer">
+            <circle cx="248" cy="215" r="8" fill="rgba(16,185,129,0.12)" stroke="rgba(16,185,129,0.35)" stroke-width="1"/>
+            <circle cx="248" cy="215" r="3.5" fill="#10B981"/>
+          </g>
+
+          <!-- Nairobi star -->
+          <text x="288" y="208" font-size="12" fill="rgba(255,255,255,0.5)" text-anchor="middle">★</text>
+          <text x="288" y="222" font-size="8.5" fill="rgba(255,255,255,0.25)" text-anchor="middle" font-family="Inter,sans-serif">Nairobi</text>
+
+          <!-- Tooltip -->
+          <g id="mapTT" opacity="0" pointer-events="none">
+            <rect id="ttR" x="50" y="50" width="195" height="44" rx="7" fill="rgba(15,23,42,0.96)" stroke="rgba(37,99,235,0.45)" stroke-width="1"/>
+            <text id="ttT" x="147" y="76" text-anchor="middle" font-size="12" fill="white" font-family="Inter,sans-serif" font-weight="600"></text>
+          </g>
+        </svg>
+      </div>
+      <div class="map-footer">
+        <div class="legend-item"><div class="legend-dot" style="background:#2563EB"></div>Land Administration (LIMS)</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#10B981"></div>Spatial Planning</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#F59E0B"></div>Infrastructure Survey</div>
+        <div style="margin-left:auto;font-size:0.75rem;color:var(--slate-600)">Hover markers for project details</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="section-eyebrow">Career</div>
+    <h2 class="section-title">Professional Experience</h2>
+    <div class="timeline">
+
+      <div class="tl-item">
+        <div class="tl-dot current"></div>
+        <div class="tl-period">January 2022 – Present</div>
+        <div class="tl-card">
+          <h3>GIS Specialist / Senior Geospatial Engineer</h3>
+          <div class="company">Digireg Kenya Limited · Nairobi, Kenya</div>
+          <ul>
+            <li>Lead design and implementation of county-scale Land Information Management Systems for Nakuru, Lamu, and Kitui county governments</li>
+            <li>Develop FME-based ETL workflows for large-scale cadastral data migration, integration, and quality control</li>
+            <li>Oversee GIS data quality assurance and manage geospatial deliverable standards across project teams</li>
+            <li>Conduct cadastral surveys, beacon placement, boundary alignment, and GIS base map preparation for planning projects in Siaya and Kilifi counties</li>
+            <li>Deliver system training, user manuals, and capacity building for county GIS and ICT teams</li>
+            <li>Engage with national and county land authorities on LIMS requirements, scoping, and pilot deployments</li>
+            <li>Prepare technical proposal reports, progress documentation, and project handover materials</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-period">January 2020 – December 2021</div>
+        <div class="tl-card">
+          <h3>Surveyor</h3>
+          <div class="company">Toddy Civil Engineering Company Limited · Kenya</div>
+          <ul>
+            <li>Led all surveying and setting-out for the Ruiru–Juja / Greater Githurai Water Supply System (Phase 1, Lot 1) — part of the Nairobi Satellite Towns Water and Sanitation Development Programme</li>
+            <li>Established project control points, benchmarks, and survey reference systems for pumping station, treatment plant, pipelines, chambers, and civil structures</li>
+            <li>Delivered precise alignment, levels, and as-built data for construction quality assurance and final project documentation</li>
+            <li>Produced survey records, as-built drawings, and measurement data for project reporting and handover</li>
+            <li>Coordinated with engineering and construction teams to resolve field discrepancies and optimize alignments</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-period">September – December 2019</div>
+        <div class="tl-card">
+          <h3>Survey &amp; Mapping Intern</h3>
+          <div class="company">Kenya Forest Service · Kenya</div>
+          <ul>
+            <li>Assisted in field and office survey operations: boundary surveys, topographic surveys, and forest mapping</li>
+            <li>Collected and processed spatial data for forest boundary demarcation, land management, and conservation planning</li>
+            <li>Supported preparation of GIS maps, coordinate schedules, and survey documentation</li>
+            <li>Participated in ground verification, map validation, and geospatial database updates</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item" style="padding-bottom:0">
+        <div class="tl-dot"></div>
+        <div class="tl-period">September 2014 – December 2019</div>
+        <div class="tl-card">
+          <h3>Bachelor of Engineering – Geospatial Engineering</h3>
+          <div class="company">Technical University of Kenya · Second Class Honours</div>
+          <ul>
+            <li>Core studies: GIS, Remote Sensing, Cadastral Surveying, Engineering Surveys, Photogrammetry, Geodesy, Land Law and Administration</li>
+            <li>Industrial attachment: Kenya Forest Service (2019) — boundary surveys, spatial database management, and GIS mapping</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="alt-bg">
+  <div class="container">
+    <div class="section-eyebrow">Credentials</div>
+    <h2 class="section-title">Certifications &amp; Professional Membership</h2>
+    <div class="certs-grid">
+      <div class="cert-card">
+        <div class="cert-logo cl-fme">FME</div>
+        <h4>FME Certified Professional</h4>
+        <p>Safe Software · Data Integration &amp; ETL</p>
+        <div class="cert-badge">✓ Sep 2023 – 2026</div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-logo cl-esri">ESRI</div>
+        <h4>Imagery in Action</h4>
+        <p>Esri MOOC · Remote Sensing &amp; Imagery</p>
+        <div class="cert-badge">✓ Certified</div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-logo cl-esri">ESRI</div>
+        <h4>Going Places with Spatial Analysis</h4>
+        <p>Esri MOOC · Advanced Spatial Analysis</p>
+        <div class="cert-badge">✓ Certified</div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-logo cl-esri">ESRI</div>
+        <h4>GIS for Climate Action</h4>
+        <p>Esri MOOC · Environmental GIS</p>
+        <div class="cert-badge">✓ Certified</div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-logo cl-esri">ESRI</div>
+        <h4>Spatial Data Science: The New Frontier</h4>
+        <p>Esri MOOC · Analytics &amp; Data Science</p>
+        <div class="cert-badge">✓ Certified</div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-logo cl-rcmrd">RCMRD</div>
+        <h4>GIS in Conservation Mapping</h4>
+        <p>RCMRD Training · Applied Conservation GIS</p>
+        <div class="cert-badge">✓ Certified</div>
+      </div>
+    </div>
+    <div style="margin-top:2rem;background:var(--navy);border:1px solid rgba(255,255,255,0.07);border-radius:16px;padding:1.5rem;display:flex;align-items:center;gap:1.25rem;flex-wrap:wrap">
+      <div style="width:50px;height:50px;border-radius:12px;background:rgba(16,185,129,0.15);display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0">🏛️</div>
+      <div>
+        <div style="font-weight:700;font-size:0.95rem;color:var(--white)">Graduate Member – Institution of Surveyors of Kenya (ISK)</div>
+        <div style="font-size:0.82rem;color:var(--slate-400);margin-top:0.2rem">Professional body membership · Surveying &amp; geospatial engineering discipline</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECH ECOSYSTEM -->
+<section>
+  <div class="container">
+    <div class="section-eyebrow">Tech Stack</div>
+    <h2 class="section-title">Technology Ecosystem</h2>
+    <div class="tech-grid">
+      <div class="tech-card"><span class="tech-icon">🗺️</span><span>ArcGIS Pro</span></div>
+      <div class="tech-card"><span class="tech-icon">🌐</span><span>ArcGIS Online</span></div>
+      <div class="tech-card"><span class="tech-icon">🟩</span><span>QGIS</span></div>
+      <div class="tech-card"><span class="tech-icon">⚡</span><span>FME Platform</span></div>
+      <div class="tech-card"><span class="tech-icon">📐</span><span>AutoCAD</span></div>
+      <div class="tech-card"><span class="tech-icon">📡</span><span>GNSS / RTK</span></div>
+      <div class="tech-card"><span class="tech-icon">🛰️</span><span>Remote Sensing</span></div>
+      <div class="tech-card"><span class="tech-icon">🗄️</span><span>Spatial DB</span></div>
+      <div class="tech-card"><span class="tech-icon">📊</span><span>MS Office Suite</span></div>
+      <div class="tech-card"><span class="tech-icon">🤖</span><span>AI for GIS</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="alt-bg">
+  <div class="container">
+    <div class="section-eyebrow">Testimonials</div>
+    <h2 class="section-title">What Colleagues Say</h2>
+    <div class="test-grid">
+      <div class="test-card">
+        <p class="test-text">"Melvin brings exceptional technical rigour to every LIMS project. His ability to design FME workflows that handle county-scale datasets while maintaining data quality standards is impressive — the Nakuru project is a testament to this."</p>
+        <div class="test-author"><div class="author-av">EM</div><div><div class="author-name">Emmanuel Marete</div><div class="author-role">Project Coordinator, Digireg Kenya Limited</div></div></div>
+      </div>
+      <div class="test-card">
+        <p class="test-text">"The GIS mapping and planning deliverables for the Ugunja Municipality Development Plan were thorough, accurate, and on schedule. Melvin's field and office GIS capabilities are a rare combination in a single professional."</p>
+        <div class="test-author"><div class="author-av">CO</div><div><div class="author-name">County Official</div><div class="author-role">Siaya County Government</div></div></div>
+      </div>
+      <div class="test-card">
+        <p class="test-text">"Working alongside Melvin on the Githurai water supply project, his precision in control establishment and as-built surveys gave the engineering team the confidence to proceed without rework. A true professional in the field."</p>
+        <div class="test-author"><div class="author-av">EW</div><div><div class="author-name">Edward Wasike</div><div class="author-role">Surveyor, Toddy Civil Engineering</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section>
+  <div class="container">
+    <div class="section-eyebrow">Insights</div>
+    <h2 class="section-title">GIS &amp; Geospatial Insights</h2>
+    <p class="section-lead">Perspectives on land administration, spatial data science, and the future of geospatial technology across Kenya and East Africa.</p>
+    <div class="blog-grid">
+      <div class="blog-card">
+        <div class="blog-img">🗺️</div>
+        <div class="blog-body">
+          <div class="blog-cat">Land Administration</div>
+          <h4>Why Kenya's Counties Need Digital LIMS Now</h4>
+          <p>How county-level Land Information Systems are transforming land revenue collection, dispute resolution, and planning efficiency.</p>
+          <div class="blog-meta"><span>Coming Soon</span><span>5 min read</span></div>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-img">⚡</div>
+        <div class="blog-body">
+          <div class="blog-cat">Data Integration</div>
+          <h4>FME for Geospatial ETL: A Practical Guide for African GIS Teams</h4>
+          <p>Real-world FME workflows for migrating legacy cadastral data to modern spatial databases at county scale.</p>
+          <div class="blog-meta"><span>Coming Soon</span><span>8 min read</span></div>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-img">📡</div>
+        <div class="blog-body">
+          <div class="blog-cat">Surveying Technology</div>
+          <h4>GNSS and RTK in Construction Surveys: Field Notes from Kenya</h4>
+          <p>Practical experiences and lessons learned using RTK GNSS for engineering and water infrastructure surveys.</p>
+          <div class="blog-meta"><span>Coming Soon</span><span>6 min read</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="alt-bg">
+  <div class="container">
+    <div class="section-eyebrow">Get in Touch</div>
+    <h2 class="section-title">Let's Work Together</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Open to consulting, full-time roles, and GIS collaborations across Kenya and East Africa.</h3>
+        <p>Whether you need a county LIMS designed, a cadastral survey delivered, or geospatial capacity built within your team — I'm available to discuss how I can contribute to your next spatial project.</p>
+        <div class="contact-links">
+          <a href="mailto:melvinngeno@gmail.com" class="contact-link">
+            <div class="cl-icon">📧</div><span>melvinngeno@gmail.com</span>
+          </a>
+          <a href="tel:+254707320583" class="contact-link">
+            <div class="cl-icon">📱</div><span>+254 707 320 583</span>
+          </a>
+          <a href="https://www.linkedin.com/in/melvin-ngeno-9268a9112/" target="_blank" class="contact-link">
+            <div class="cl-icon">💼</div><span>linkedin.com/in/melvin-ngeno-9268a9112</span>
+          </a>
+          <a href="https://github.com/Mngeno/Claude-Portfolio" target="_blank" class="contact-link">
+            <div class="cl-icon">🐙</div><span>github.com/Mngeno/Claude-Portfolio</span>
+          </a>
+          <div class="contact-link">
+            <div class="cl-icon">📍</div><span>Nairobi, Kenya</span>
+          </div>
+        </div>
+      </div>
+      <div class="cform">
+        <div class="fr">
+          <div class="fg"><label>Name</label><input type="text" placeholder="Your full name"></div>
+          <div class="fg"><label>Organization</label><input type="text" placeholder="Company / Agency"></div>
+        </div>
+        <div class="fg"><label>Email</label><input type="email" placeholder="your@email.com"></div>
+        <div class="fg">
+          <label>Project Type</label>
+          <select>
+            <option value="">Select project type</option>
+            <option>Land Information Management System</option>
+            <option>Cadastral &amp; Boundary Survey</option>
+            <option>Engineering Survey</option>
+            <option>Spatial Planning Support</option>
+            <option>GIS Data Management &amp; QA</option>
+            <option>FME / ETL Data Integration</option>
+            <option>GIS Training &amp; Capacity Building</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="fg"><label>Message</label><textarea placeholder="Describe your project or inquiry…"></textarea></div>
+        <button class="btn-primary" style="width:100%;justify-content:center" onclick="handleSubmit(this)">Send Message →</button>
+        <div id="formSuccess" style="display:none;margin-top:1rem;background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.25);color:var(--emerald-light);padding:0.875rem;border-radius:8px;font-size:0.85rem;text-align:center">
+          ✓ Message sent! Melvin will be in touch shortly.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 <span>Melvin Kipkemoi Ngeno</span> · Senior Geospatial Engineer &amp; GIS Specialist · Nairobi, Kenya</p>
+  <p style="margin-top:0.4rem">BEng Geospatial Engineering, Technical University of Kenya &nbsp;·&nbsp; FME Certified Professional &nbsp;·&nbsp; Graduate Member, ISK</p>
+  <p style="margin-top:0.6rem">
+    <a href="mailto:melvinngeno@gmail.com">melvinngeno@gmail.com</a> &nbsp;·&nbsp;
+    <a href="https://www.linkedin.com/in/melvin-ngeno-9268a9112/" target="_blank">LinkedIn</a> &nbsp;·&nbsp;
+    <a href="https://github.com/Mngeno/Claude-Portfolio" target="_blank">GitHub</a>
+  </p>
+</footer>
+
+<script>
+function filterMap(type, btn) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.map-marker').forEach(m => {
+    m.style.opacity = (type === 'all' || m.dataset.type === type) ? '1' : '0.12';
+    m.style.transition = 'opacity 0.3s';
+  });
+}
+
+document.querySelectorAll('.map-marker').forEach(m => {
+  m.addEventListener('mouseenter', function() {
+    const svg = document.getElementById('kMap');
+    const tt = document.getElementById('mapTT');
+    const ttT = document.getElementById('ttT');
+    const ttR = document.getElementById('ttR');
+    const circles = this.querySelectorAll('circle[r]');
+    let cx = 0, cy = 0;
+    circles.forEach(c => { if(parseFloat(c.getAttribute('r')) >= 8) { cx = parseFloat(c.getAttribute('cx')); cy = parseFloat(c.getAttribute('cy')); } });
+    const project = this.dataset.project;
+    ttT.textContent = project;
+    const tx = Math.max(5, Math.min(cx - 97, 520));
+    const ty = cy - 62;
+    ttR.setAttribute('x', tx); ttR.setAttribute('y', ty);
+    ttT.setAttribute('x', tx + 97); ttT.setAttribute('y', ty + 27);
+    tt.setAttribute('opacity', '1');
+  });
+  m.addEventListener('mouseleave', () => document.getElementById('mapTT').setAttribute('opacity', '0'));
+});
+
+function handleSubmit(btn) {
+  btn.textContent = 'Sending…';
+  btn.disabled = true;
+  setTimeout(() => {
+    btn.style.display = 'none';
+    document.getElementById('formSuccess').style.display = 'block';
+  }, 1100);
+}
+
+// Scroll-reveal
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if(e.isIntersecting) {
+      e.target.style.opacity = '1';
+      e.target.style.transform = 'translateY(0)';
+      obs.unobserve(e.target);
+    }
+  });
+}, {threshold: 0.08});
+
+document.querySelectorAll('.project-card,.cert-card,.tl-card,.skill-category,.tech-card,.test-card,.blog-card,.highlight-card').forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(18px)';
+  el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+  obs.observe(el);
+});
+</script>
+</body>
+</html>
